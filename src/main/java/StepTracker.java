@@ -6,6 +6,8 @@ public class StepTracker {
     public StepTracker(int _ms) {
         minSteps = _ms;
         steps = new ArrayList<Integer>();
+        totalSteps = 0;
+        active = 0;
     }
 
     public void addDailySteps(int _s) {
